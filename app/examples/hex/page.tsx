@@ -16,7 +16,7 @@ export default function HexPage() {
 				address: "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
 				name: "HEX",
 				symbol: "HEX",
-				decimals: 18,
+				decimals: 8,
 				balance: Balance.parse({ units: 0n, value: 0, valueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }) }),
 				tokenId: 0n,
 			})],
