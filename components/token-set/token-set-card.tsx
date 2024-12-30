@@ -23,6 +23,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { actionMap } from "@/lib/token-action-map";
+import { useSkeleton } from "@/lib/hooks/use-sekeleton";
 
 export const TokenSetCard = ({
   tokenSetRecord,
@@ -30,6 +31,7 @@ export const TokenSetCard = ({
   tokenSetRecord: z.infer<typeof TokenSetRecord>;
 }) => {
   const tokenSet = tokenSetRecord.tokenSet;
+  const { isLoading, startLoading, stopLoading } = useSkeleton();
 
   const TokenRow = ({ token }: { token: z.infer<typeof Token> }) => {
     const currentValue = token.balance.value;
@@ -39,46 +41,67 @@ export const TokenSetCard = ({
       previousValue !== 0 ? (change / previousValue) * 100 : 0;
     const changeColor = getChangeColor(percentChange);
 
-
     return (
       <div className="flex flex-row gap-2 items-center justify-between w-full">
         <div className="flex flex-row gap-2 items-center">
-          <Image
-            src={`https://ocfs.superdapp.com/${token.chainId}/${token.address}.svg`}
-            alt={token.name}
-            className="size-12 rounded-full outline outline-2 outline-background"
-            width={512}
-            height={512}
-            priority
-            loading="eager"
-          />
+          {isLoading ? (
+            <div className="size-12 rounded-full bg-muted" />
+          ) : (
+            <Image
+              src={`https://ocfs.superdapp.com/${token.chainId}/${token.address}.svg`}
+              alt={token.name}
+              className="size-12 rounded-full outline outline-2 outline-background"
+              width={512}
+              height={512}
+              priority
+              loading="eager"
+            />
+          )}
           <div className="flex flex-col items-start">
-            <div className="text-md text-foreground truncate">{token.name}</div>
-            <div className="text-sm text-muted-foreground truncate flex flex-row gap-2">
-              {token.symbol}
-              {token.note && (
-                <Badge
-                  variant="secondary"
-                  className="text-xs text-muted-foreground"
-                >
-                  {token.note}
-                </Badge>
-              )}
-            </div>
+            {isLoading ? (
+              <>
+                <div className="h-5 w-24 bg-muted rounded" />
+                <div className="h-4 w-16 bg-muted rounded mt-1" />
+              </>
+            ) : (
+              <>
+                <div className="text-md text-foreground truncate">{token.name}</div>
+                <div className="text-sm text-muted-foreground truncate flex flex-row gap-2">
+                  {token.symbol}
+                  {token.note && (
+                    <Badge
+                      variant="secondary"
+                      className="text-xs text-muted-foreground"
+                    >
+                      {token.note}
+                    </Badge>
+                  )}
+                </div>
+              </>
+            )}
           </div>
         </div>
 
         <div className="flex flex-col items-end text-right">
-          <div className="text-sm font-mono text-foreground font-semibold">
-            {formatUSD(token.balance.price)}
-          </div>
-          <Badge
-            variant="secondary"
-            className={cn("font-mono text-xs", changeColor)}
-          >
-            {percentChange >= 0 ? "+" : ""}
-            {percentChange.toFixed(2)}%
-          </Badge>
+          {isLoading ? (
+            <>
+              <div className="h-4 w-16 bg-muted rounded" />
+              <div className="h-4 w-12 bg-muted rounded mt-1" />
+            </>
+          ) : (
+            <>
+              <div className="text-sm font-mono text-foreground font-semibold">
+                {formatUSD(token.balance.price)}
+              </div>
+              <Badge
+                variant="secondary"
+                className={cn("font-mono text-xs", changeColor)}
+              >
+                {percentChange >= 0 ? "+" : ""}
+                {percentChange.toFixed(2)}%
+              </Badge>
+            </>
+          )}
         </div>
       </div>
     );

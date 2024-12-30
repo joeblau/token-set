@@ -7,11 +7,12 @@ import { useRef, useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
+import { useSkeleton } from "@/lib/hooks/use-sekeleton";
 
 const ExampleLayout = ({ children }: { children: React.ReactNode }) => {
     const pathname = usePathname()
     const [screenshotName, setScreenshotName] = useState("")
-    
+    const { isLoading, startLoading, stopLoading } = useSkeleton();
     useEffect(() => {
         const name = pathname.split("/").pop() || "screenshot"
         setScreenshotName(name)
@@ -23,7 +24,7 @@ const ExampleLayout = ({ children }: { children: React.ReactNode }) => {
         cacheBust: true,
         onSuccess: async (data) => {
           const link = document.createElement("a");
-          link.download = `${screenshotName}.png`;
+          link.download = `${screenshotName}${isLoading ? '-skeleton' : ''}.png`;
           link.href = data;
           link.click();
         },
@@ -43,10 +44,15 @@ const ExampleLayout = ({ children }: { children: React.ReactNode }) => {
             >
                 Screenshot
             </Button>
+
+            <div className="flex items-center justify-center space-x-2">
+                <Switch id="loading" onCheckedChange={(checked) => checked ? startLoading() : stopLoading()} />
+                <Label htmlFor="loading">Skeleton</Label>
+            </div>
         </div>
         
-        <div ref={ref}>
-            <div className="flex items-center mx-auto w-[512px] h-[768px] bg-transparent p-4">
+        <div className="flex items-center mx-auto ">
+            <div ref={ref} className="flex items-center w-[512px] h-[768px] bg-transparent p-4">
                 <div className="w-full">{children}</div>
             </div>
         </div>
