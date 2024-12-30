@@ -1,4 +1,4 @@
-import { Balance, TokenSetRecord } from "@/lib/schema";
+import { Action, Balance, TokenSetRecord } from "@/lib/schema";
 import { TokenSetCard } from "@/components/token-set/token-set-card";
 import { TimeSeriesMetrics, TokenSet } from "@/lib/schema";
 import { Name, Standard } from "@/lib/schema";
@@ -59,7 +59,7 @@ export default function LiquidiyPairPage() {
 				tokenId: 0n,
 			}),
 		],
-			actions: [],
+			actions: [Action.enum.SEND, Action.enum.RECEIVE, Action.enum.BURN, Action.enum.DEPOSIT_COLLATERAL, Action.enum.WITHDRAW_COLLATERAL, Action.enum.CLAIM],
 			totalValue: 0,
 			totalValueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }),
 		}),

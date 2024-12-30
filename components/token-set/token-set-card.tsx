@@ -9,30 +9,31 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { z } from "zod";
-import { Name, Token, TokenSet, TokenSetRecord } from "@/lib/schema";
-import { useEffect, useState } from "react";
+import { Action, Name, Token, TokenSet, TokenSetRecord } from "@/lib/schema";
+import { createElement, useEffect, useState } from "react";
 import Image from "next/image";
 import { cn, getChangeColor, uuidToken } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { formatUSD } from "@/lib/format-usd";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, MoreVertical } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { actionMap } from "@/lib/token-action-map";
 
 export const TokenSetCard = ({
   tokenSetRecord,
 }: {
   tokenSetRecord: z.infer<typeof TokenSetRecord>;
 }) => {
-  const [stakeList, setStakeList] = useState<string>("");
-  const tokenSet = tokenSetRecord.tokenSet;
-  // if (tokenSet.name !== Name.enum.STAKE) {
-  //   return null;
-  // }
 
-  useEffect(() => {
-    const stakeList = tokenSet.in.map((token) => token.symbol).join(" • ");
-    setStakeList(stakeList);
-  }, [tokenSet]);
+  const tokenSet = tokenSetRecord.tokenSet;
+
 
   const TokenRow = ({ token }: { token: z.infer<typeof Token> }) => {
     const currentValue = token.balance.value;
@@ -87,37 +88,59 @@ export const TokenSetCard = ({
   };
 
   return (
-      <Card>
-        <CardHeader>
-          <CardTitle><div className="flex justify-between items-center w-full">{tokenSet.name}
-            <Button variant="outline" size="icon">
-              <ChevronDown className="size-4 text-muted-foreground" />
-            </Button>
-            </div></CardTitle>
-          {/* <CardDescription>{stakeList}</CardDescription> */}
-        </CardHeader>
-        <CardContent>
-          <div className="isolate flex flex-col items-center -space-y-1 overflow-hidden w-full">
-            {tokenSet.in.map((token) => (
-              <TokenRow key={uuidToken({ token })} token={token} />
-            ))}
-
-            {tokenSet.out && (
-              <div className="w-full h-12 flex items-center justify-center">
-                <ChevronDown className="size-6 text-muted-foreground" />
-              </div>
-            )}
-
-            {tokenSet.out?.map((token) => (
-              <TokenRow key={uuidToken({ token })} token={token} />
-            ))}
+    <Card>
+      <CardHeader>
+        <CardTitle>
+          <div className="flex justify-between items-center w-full">
+            {tokenSet.name}
+            <DropdownMenu>
+              <DropdownMenuTrigger>
+                <Button variant="ghost" size="icon">
+                  <MoreVertical className="h-4 w-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" side="bottom">
+                <DropdownMenuLabel>Token Actions</DropdownMenuLabel>
+                {tokenSet.actions.map((action) => (
+                  <DropdownMenuItem key={action}>
+                    {createElement(
+                      actionMap[action as z.infer<typeof Action>].icon,
+                      {
+                        className: "mr-2 h-4 w-4",
+                      }
+                    )}
+                    <span>
+                      {actionMap[action as z.infer<typeof Action>].title}
+                    </span>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
-        </CardContent>
-        {/* <CardFooter>
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        <div className="isolate flex flex-col items-center -space-y-1 overflow-hidden w-full">
+          {tokenSet.in.map((token) => (
+            <TokenRow key={uuidToken({ token })} token={token} />
+          ))}
+
+          {tokenSet.out && (
+            <div className="w-full h-12 flex items-center justify-center">
+              <ChevronDown className="size-6 text-muted-foreground" />
+            </div>
+          )}
+
+          {tokenSet.out?.map((token) => (
+            <TokenRow key={uuidToken({ token })} token={token} />
+          ))}
+        </div>
+      </CardContent>
+      {/* <CardFooter>
           <div className="text-sm text-muted-foreground text-center w-full">
             Powered by superdapp.com
           </div>
         </CardFooter> */}
-      </Card>
+    </Card>
   );
 };
