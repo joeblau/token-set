@@ -1,4 +1,4 @@
-import { Balance, Name, Standard, TimeSeriesMetrics, Token, TokenSet, TokenSetRecord } from "@/lib/schema";
+import { Action, Balance, Name, Standard, TimeSeriesMetrics, Token, TokenSet, TokenSetRecord } from "@/lib/schema";
 import { TokenSetCard } from "@/components/token-set/token-set-card";
 
 export default function HexPage() {
@@ -21,7 +21,7 @@ export default function HexPage() {
 				tokenId: 0n,
 			})],
 			out: null,
-			actions: [],
+			actions: [Action.enum.SEND, Action.enum.RECEIVE, Action.enum.DEPOSIT_STAKE],
 			totalValue: 0,
 			totalValueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }),
 		}),

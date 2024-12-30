@@ -1,4 +1,4 @@
-import { Balance, Name, Token, TokenSet, TokenSetRecord ,Standard, TimeSeriesMetrics } from "@/lib/schema";
+import { Balance, Name, Token, TokenSet, TokenSetRecord ,Standard, TimeSeriesMetrics, Action } from "@/lib/schema";
 import { TokenSetCard } from "@/components/token-set/token-set-card";
 
 export default function HexStakePage() {
@@ -54,8 +54,8 @@ export default function HexStakePage() {
 				tokenId: 0n,
 			}),
 		],
-			actions: [],
-			totalValue: 0,
+		actions: [Action.enum.MINT, Action.enum.CLAIM, Action.enum.WITHDRAW_STAKE, Action.enum.PAUSE_STAKE],
+		totalValue: 0,
 			totalValueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }),
 		}),
 	});

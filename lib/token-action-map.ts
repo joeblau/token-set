@@ -18,12 +18,11 @@ import {
   Banknote,
   PauseCircle,
   Lock,
-  Shield,
   Droplet,
-  Flag,
   Hammer,
   ImageDown,
   VaultIcon,
+  PiggyBankIcon,
 } from "lucide-react";
 import AtmMachineCreditCard from "@/components/icons";
 
@@ -158,7 +157,7 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Withdraw Liquidity",
   },
   DEPOSIT_FARM: {
-    icon: Flag,
+    icon: PiggyBankIcon,
     title: "Deposit Farm",
   },
   PAUSE_FARM: {
