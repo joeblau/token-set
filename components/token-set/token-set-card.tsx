@@ -16,6 +16,7 @@ import { cn, getChangeColor, uuidToken } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { formatUSD } from "@/lib/format-usd";
 import { ChevronDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const TokenSetCard = ({
   tokenSetRecord,
@@ -47,7 +48,7 @@ export const TokenSetCard = ({
           <Image
             src={`https://ocfs.superdapp.com/${token.chainId}/${token.address}.svg`}
             alt={token.name}
-            className="size-16 rounded-full outline outline-4 outline-background"
+            className="size-12 rounded-full outline outline-2 outline-background"
             width={512}
             height={512}
             priority
@@ -70,12 +71,12 @@ export const TokenSetCard = ({
         </div>
 
         <div className="flex flex-col items-end text-right">
-          <div className="text-md font-mono text-foreground font-semibold">
+          <div className="text-sm font-mono text-foreground font-semibold">
             {formatUSD(token.balance.price)}
           </div>
           <Badge
             variant="secondary"
-            className={cn("font-mono text-md", changeColor)}
+            className={cn("font-mono text-xs", changeColor)}
           >
             {percentChange >= 0 ? "+" : ""}
             {percentChange.toFixed(2)}%
@@ -88,7 +89,11 @@ export const TokenSetCard = ({
   return (
       <Card>
         <CardHeader>
-          <CardTitle>{tokenSet.name}</CardTitle>
+          <CardTitle><div className="flex justify-between items-center w-full">{tokenSet.name}
+            <Button variant="outline" size="icon">
+              <ChevronDown className="size-4 text-muted-foreground" />
+            </Button>
+            </div></CardTitle>
           {/* <CardDescription>{stakeList}</CardDescription> */}
         </CardHeader>
         <CardContent>
@@ -99,7 +104,7 @@ export const TokenSetCard = ({
 
             {tokenSet.out && (
               <div className="w-full h-12 flex items-center justify-center">
-                <ChevronDown className="size-8 text-muted-foreground" />
+                <ChevronDown className="size-6 text-muted-foreground" />
               </div>
             )}
 
