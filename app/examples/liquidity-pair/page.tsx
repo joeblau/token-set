@@ -59,13 +59,11 @@ export default function LiquidiyPairPage() {
 				tokenId: 0n,
 			}),
 		],
-			actions: [Action.enum.SEND, Action.enum.RECEIVE, Action.enum.BURN, Action.enum.DEPOSIT_COLLATERAL, Action.enum.WITHDRAW_COLLATERAL, Action.enum.CLAIM],
+			actions: [Action.enum.SEND, Action.enum.RECEIVE, Action.enum.BURN, Action.enum.CLAIM, Action.enum.DEPOSIT_COLLATERAL, Action.enum.WITHDRAW_COLLATERAL, Action.enum.DEPOSIT_FARM],
 			totalValue: 0,
 			totalValueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }),
 		}),
 	});
 
-	return <div>
-		<TokenSetCard tokenSetRecord={tokenSetRecord} />
-	</div>;	
+	return <TokenSetCard tokenSetRecord={tokenSetRecord} />;	
 }
