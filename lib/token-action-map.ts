@@ -23,6 +23,9 @@ import {
   ImageDown,
   VaultIcon,
   PiggyBankIcon,
+  Unlock,
+  UnlockIcon,
+  TractorIcon,
 } from "lucide-react";
 import AtmMachineCreditCard from "@/components/icons";
 
@@ -129,7 +132,7 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Pause Stake",
   },
   WITHDRAW_STAKE: {
-    icon: Lock,
+    icon: UnlockIcon,
     title: "Withdraw Stake",
   },
   DEPOSIT_COLLATERAL: {
@@ -165,7 +168,7 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Pause Farm",
   },
   WITHDRAW_FARM: {
-    icon: Hammer,
+    icon: TractorIcon,
     title: "Withdraw Farm",
   },
 };

@@ -175,7 +175,7 @@ export default function MaximusPage() {
               tokenId: 0n,
             }
           ],
-          actions: [Action.enum.WITHDRAW_STAKE],
+          actions: [Action.enum.WITHDRAW_STAKE, Action.enum.CLAIM],
           totalValue: 0,
           totalValueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }),
         },
