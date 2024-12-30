@@ -24,9 +24,9 @@ export const TokenSetCard = ({
 }) => {
   const [stakeList, setStakeList] = useState<string>("");
   const tokenSet = tokenSetRecord.tokenSet;
-  if (tokenSet.name !== Name.enum.STAKE) {
-    return null;
-  }
+  // if (tokenSet.name !== Name.enum.STAKE) {
+  //   return null;
+  // }
 
   useEffect(() => {
     const stakeList = tokenSet.in.map((token) => token.symbol).join(" • ");
@@ -86,32 +86,33 @@ export const TokenSetCard = ({
   };
 
   return (
-    <div className="bg-background p-4">
-      <Card className="shadow-none">
+      <Card>
         <CardHeader>
           <CardTitle>{tokenSet.name}</CardTitle>
-          <CardDescription>{stakeList}</CardDescription>
+          {/* <CardDescription>{stakeList}</CardDescription> */}
         </CardHeader>
         <CardContent>
           <div className="isolate flex flex-col items-center -space-y-1 overflow-hidden w-full">
             {tokenSet.in.map((token) => (
               <TokenRow key={uuidToken({ token })} token={token} />
             ))}
-            <div className="w-full h-12 flex items-center justify-center">
-              <ChevronDown className="size-8 text-muted-foreground" />
-            </div>
+
+            {tokenSet.out && (
+              <div className="w-full h-12 flex items-center justify-center">
+                <ChevronDown className="size-8 text-muted-foreground" />
+              </div>
+            )}
 
             {tokenSet.out?.map((token) => (
               <TokenRow key={uuidToken({ token })} token={token} />
             ))}
           </div>
         </CardContent>
-        <CardFooter>
+        {/* <CardFooter>
           <div className="text-sm text-muted-foreground text-center w-full">
             Powered by superdapp.com
           </div>
-        </CardFooter>
+        </CardFooter> */}
       </Card>
-    </div>
   );
 };
