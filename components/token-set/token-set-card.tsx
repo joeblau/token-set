@@ -3,14 +3,12 @@
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { z } from "zod";
-import { Action, Name, Token, TokenSet, TokenSetRecord } from "@/lib/schema";
-import { createElement, useEffect, useState } from "react";
+import { Action, Token, TokenSetRecord } from "@/lib/schema";
+import { createElement, useRef } from "react";
 import Image from "next/image";
 import { cn, getChangeColor, uuidToken } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
@@ -31,9 +29,7 @@ export const TokenSetCard = ({
 }: {
   tokenSetRecord: z.infer<typeof TokenSetRecord>;
 }) => {
-
   const tokenSet = tokenSetRecord.tokenSet;
-
 
   const TokenRow = ({ token }: { token: z.infer<typeof Token> }) => {
     const currentValue = token.balance.value;
@@ -42,6 +38,7 @@ export const TokenSetCard = ({
     const percentChange =
       previousValue !== 0 ? (change / previousValue) * 100 : 0;
     const changeColor = getChangeColor(percentChange);
+
 
     return (
       <div className="flex flex-row gap-2 items-center justify-between w-full">
@@ -93,29 +90,33 @@ export const TokenSetCard = ({
         <CardTitle>
           <div className="flex justify-between items-center w-full">
             {tokenSet.name}
-            <DropdownMenu>
-              <DropdownMenuTrigger>
-                <Button variant="ghost" size="icon">
-                  <MoreVertical className="h-4 w-4" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" side="bottom">
-                <DropdownMenuLabel>Token Actions</DropdownMenuLabel>
-                {tokenSet.actions.map((action) => (
-                  <DropdownMenuItem key={action}>
-                    {createElement(
-                      actionMap[action as z.infer<typeof Action>].icon,
-                      {
-                        className: "mr-2 h-4 w-4",
-                      }
-                    )}
-                    <span>
-                      {actionMap[action as z.infer<typeof Action>].title}
-                    </span>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+            {tokenSet.actions.length > 0 && (
+
+              <DropdownMenu>
+                <DropdownMenuTrigger>
+                    <Button variant="outline" size="icon">
+                      <MoreVertical className="h-4 w-4" />
+                    </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" side="bottom">
+                    <DropdownMenuLabel>Token Actions</DropdownMenuLabel>
+                  {tokenSet.actions.map((action) => (
+                    <DropdownMenuItem key={action}>
+                      {createElement(
+                        actionMap[action as z.infer<typeof Action>].icon,
+                        {
+                          className: "mr-2 h-4 w-4",
+                        }
+                      )}
+                      <span>
+                        {actionMap[action as z.infer<typeof Action>].title}
+                      </span>
+                    </DropdownMenuItem>
+                 
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            )}
           </div>
         </CardTitle>
       </CardHeader>

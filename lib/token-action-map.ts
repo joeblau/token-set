@@ -19,12 +19,13 @@ import {
   PauseCircle,
   Lock,
   Shield,
-  ShieldPlus,
   Droplet,
   Flag,
   Hammer,
   ImageDown,
+  VaultIcon,
 } from "lucide-react";
+import AtmMachineCreditCard from "@/components/icons";
 
 interface IconActionMap {
   icon: React.ElementType; // Changed from React.ReactNode to React.ElementType
@@ -97,7 +98,7 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Repay",
   },
   DEPOSIT_FIAT: {
-    icon: Banknote,
+    icon: VaultIcon,
     title: "Deposit Fiat",
   },
   PAUSE_FIAT: {
@@ -133,7 +134,7 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Withdraw Stake",
   },
   DEPOSIT_COLLATERAL: {
-    icon: Shield,
+    icon: VaultIcon,
     title: "Deposit Collateral",
   },
   PAUSE_COLLATERAL: {
@@ -141,7 +142,7 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Pause Collateral",
   },
   WITHDRAW_COLLATERAL: {
-    icon: Shield,
+    icon: AtmMachineCreditCard,
     title: "Withdraw Collateral",
   },
   DEPOSIT_LIQUIDITY: {
