@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { z } from "zod";
-import { Action, Token, TokenSetRecord } from "@/lib/schema";
+import { Action, Standard, Token, TokenSetRecord } from "@/lib/schema";
 import { createElement, useRef } from "react";
 import Image from "next/image";
 import { cn, getChangeColor, uuidToken } from "@/lib/utils";
@@ -36,6 +36,7 @@ export const TokenSetCard = ({
   const TokenRow = ({ token }: { token: z.infer<typeof Token> }) => {
     const currentValue = token.balance.value;
     const previousValue = token.balance.valueTs.h24;
+    const isNFT = token.standard === Standard.enum.ERC_721;
     const change = currentValue - previousValue;
     const percentChange =
       previousValue !== 0 ? (change / previousValue) * 100 : 0;
@@ -45,12 +46,12 @@ export const TokenSetCard = ({
       <div className="flex flex-row gap-2 items-center justify-between w-full">
         <div className="flex flex-row gap-2 items-center">
           {isLoading ? (
-            <div className="size-12 rounded-full bg-muted" />
+            <div className={cn("size-12 bg-muted", isNFT ? "rounded-lg" : "rounded-full")} />
           ) : (
             <Image
               src={`https://ocfs.superdapp.com/${token.chainId}/${token.address}.svg`}
               alt={token.name}
-              className="size-12 rounded-full outline outline-2 outline-background"
+              className={cn("size-12 rounded-full outline outline-2 outline-background", isNFT ? "rounded-lg" : "rounded-full")}
               width={512}
               height={512}
               priority
