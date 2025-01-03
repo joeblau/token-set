@@ -27,7 +27,8 @@ import {
   UnlockIcon,
   TractorIcon,
 } from "lucide-react";
-import AtmMachineCreditCard from "@/components/icons";
+import { AtmMachineCreditCard, HandDroppingCoin, HandHoldingCoin } from "@/components/icons";
+import { createElement } from "react";
 
 interface IconActionMap {
   icon: React.ElementType; // Changed from React.ReactNode to React.ElementType
@@ -40,11 +41,11 @@ export const actionMap: Record<z.infer<typeof Action>, IconActionMap> = {
     title: "Screenshot",
   },
   BUY: {
-    icon: HandCoins,
+    icon: HandHoldingCoin,
     title: "Buy",
   },
   SELL: {
-    icon: HandCoins,
+    icon: HandDroppingCoin,
     title: "Sell",
   },
   CLAIM: {

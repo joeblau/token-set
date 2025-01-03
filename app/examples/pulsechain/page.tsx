@@ -1,7 +1,5 @@
-import { Action, Balance, Name, Standard, TimeSeriesMetrics, Token, TokenSetRecord } from "@/lib/schema";
-
+import { Action, Balance, Name, Standard, TimeSeriesMetrics, Token, TokenSetRecord, TokenSet } from "@/lib/schema";
 import { TokenSetCard } from "@/components/token-set/token-set-card";
-import { TokenSet } from "@/lib/schema";
 
 export default function PulseChainPage() {
 	const tokenSetRecord = TokenSetRecord.parse({
@@ -23,11 +21,10 @@ export default function PulseChainPage() {
 				tokenId: 0n,
 			})],
 			out: null,
-			actions: [Action.enum.SEND, Action.enum.RECEIVE, Action.enum.DEPOSIT_STAKE, Action.enum.DEPOSIT_CREDIT, Action.enum.DEPOSIT_LIQUIDITY],
+			actions: [Action.enum.BUY, Action.enum.SELL, Action.enum.SEND, Action.enum.RECEIVE, Action.enum.DEPOSIT_STAKE, Action.enum.DEPOSIT_CREDIT, Action.enum.DEPOSIT_LIQUIDITY],
 			totalValue: 0,
 			totalValueTs: TimeSeriesMetrics.default({ h1: 0, h24: 0, d7: 0, d30: 0 }),
 		}),
 	});
 	return <TokenSetCard tokenSetRecord={tokenSetRecord} />;	
-
 }
