@@ -25,3 +25,20 @@ export const uuidToken = ({
     token.tokenId.toString(),
   ].join("_");
 };
+
+export function shortAddress(address: string) {
+  return `${address.slice(0, 6)}•••${address.slice(-4)}`;
+}
+
+
+export function formatProgress(progress: number) {
+  return `${(progress * 100).toFixed(0)}%`;
+}
+
+export function formatDate(date: Date) {
+  return date.toLocaleDateString("en-US", {
+    month: "numeric",
+    day: "numeric",
+    year: "numeric",
+  });
+}

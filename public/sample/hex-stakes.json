@@ -1,226 +1,1838 @@
 [
   {
-    "id": "stake_2025_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000", 
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2025-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2026_dec",
+    "id": "e44ec1b49ac044eec29874d13d1e2e1a",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
       "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2026-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "note": "{\"status\":\"ACTIVE\",\"progress\":30.45904590459046,\"endTs\":\"2035-08-03T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "183979329818454",
+            "price": 0.0026885744914,
+            "value": 4946.421330947628,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 4875.534689495405,
+              "h24": 5299.788134826967,
+              "d7": 6433.331535335729,
+              "d30": 9357.642136886718
+            }
+          },
+          "tokenId": "0"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "777761123921236",
+            "price": 0.0026885744914,
+            "value": 20910.687181772297,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 20611.01833320498,
+              "h24": 22404.523270928883,
+              "d7": 27196.507185986953,
+              "d30": 39558.84757716794
+            }
+          },
+          "tokenId": "0"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "288748731338749700",
+            "price": 5.66324750341e-8,
+            "value": 16.35255531866979,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 16.35255531866979,
+              "h24": 17.80370905028988,
+              "d7": 22.05575493921001,
+              "d30": 29.428468793731156
+            }
+          },
+          "tokenId": "156220"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 25873.461068038596,
+      "totalValueTs": {
+        "h1": 25502.905578019054,
+        "h24": 27722.11511480614,
+        "d7": 33651.89447626189,
+        "d30": 48945.918182848385
+      }
     }
   },
   {
-    "id": "stake_2027_dec",
+    "id": "b49ba1e7b8b16158de2d895bee39f3d2",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
       "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2027-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "note": "{\"status\":\"ACTIVE\",\"progress\":28.370837083708373,\"endTs\":\"2035-11-27T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "100000000000000",
+            "price": 0.0026885744914,
+            "value": 2688.5744914,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 2650.04481444,
+              "h24": 2880.64324403,
+              "d7": 3496.7686542200004,
+              "d30": 5086.24645286
+            }
+          },
+          "tokenId": "1"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "390574051161760",
+            "price": 0.0026885744914,
+            "value": 10500.874309562665,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 10350.387389360454,
+              "h24": 11251.045017725515,
+              "d7": 13657.47099254161,
+              "d30": 19865.55882300662
+            }
+          },
+          "tokenId": "1"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "150363910762374520",
+            "price": 5.66324750341e-8,
+            "value": 8.515480422279815,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 8.515480422279815,
+              "h24": 9.271158721513011,
+              "d7": 11.485382297958932,
+              "d30": 15.324672198759158
+            }
+          },
+          "tokenId": "203054"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 13197.964281384946,
+      "totalValueTs": {
+        "h1": 13008.947684222734,
+        "h24": 14140.959420477027,
+        "d7": 17165.72502905957,
+        "d30": 24967.12994806538
+      }
     }
   },
   {
-    "id": "stake_2028_dec", 
+    "id": "8d0fd558e6200fca56cda41e2fe48b31",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
       "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2028-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "note": "{\"status\":\"ACTIVE\",\"progress\":26.46264626462646,\"endTs\":\"2036-03-12T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "300000000000000",
+            "price": 0.0026885744914,
+            "value": 8065.7234742,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 7950.13444332,
+              "h24": 8641.92973209,
+              "d7": 10490.30596266,
+              "d30": 15258.739358580002
+            }
+          },
+          "tokenId": "2"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "535423246604627",
+            "price": 0.0026885744914,
+            "value": 14395.25282923772,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 14188.955981952211,
+              "h24": 15423.633580282276,
+              "d7": 18722.512254677647,
+              "d30": 27232.945888215694
+            }
+          },
+          "tokenId": "2"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "296121688312480300",
+            "price": 5.66324750341e-8,
+            "value": 16.770104120412082,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 16.770104120412082,
+              "h24": 18.25831184695674,
+              "d7": 22.618930165767686,
+              "d30": 30.17990009253886
+            }
+          },
+          "tokenId": "306675"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 22477.74640755813,
+      "totalValueTs": {
+        "h1": 22155.860529392623,
+        "h24": 24083.821624219236,
+        "d7": 29235.437147503417,
+        "d30": 42521.86514688823
+      }
     }
   },
   {
-    "id": "stake_2029_dec",
-    "tokenSet": {
-      "name": "STAKE", 
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2029-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2030_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2030-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2031_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2031-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2032_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000", 
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2032-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2033_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2033-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2034_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2034-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2035_dec",
-    "tokenSet": {
-      "name": "STAKE",
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2035-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2036_dec",
+    "id": "445a02d92a541c6718ed79d0d973868c",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
       "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2036-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "note": "{\"status\":\"ACTIVE\",\"progress\":33.910891089108915,\"endTs\":\"2033-01-19T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "529567236620708",
+            "price": 0.0026885744914,
+            "value": 14237.809638596234,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 14033.769093040277,
+              "h24": 15254.94282431079,
+              "d7": 18517.741133171974,
+              "d30": 26935.094788129485
+            }
+          },
+          "tokenId": "3"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "1417164651198057",
+            "price": 0.0026885744914,
+            "value": 38101.52731324875,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 37555.498351150825,
+              "h24": 40823.45778151815,
+              "d7": 49554.969301779856,
+              "d30": 72080.48680274698
+            }
+          },
+          "tokenId": "3"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "767786372372745400",
+            "price": 5.66324750341e-8,
+            "value": 43.481642564921714,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 43.481642564921714,
+              "h24": 47.340277905724804,
+              "d7": 58.64651940185263,
+              "d30": 78.25065479895045
+            }
+          },
+          "tokenId": "275417"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 52382.8185944099,
+      "totalValueTs": {
+        "h1": 51632.74908675602,
+        "h24": 56125.74088373466,
+        "d7": 68131.35695435369,
+        "d30": 99093.83224567541
+      }
     }
   },
   {
-    "id": "stake_2037_dec",
+    "id": "4e231821231c05539c81ec2b004a5292",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
       "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2037-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "note": "{\"status\":\"ACTIVE\",\"progress\":28.244824482448244,\"endTs\":\"2035-12-04T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "1000000000000000",
+            "price": 0.0026885744914,
+            "value": 26885.744914000003,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 26500.4481444,
+              "h24": 28806.432440300003,
+              "d7": 34967.686542200005,
+              "d30": 50862.4645286
+            }
+          },
+          "tokenId": "4"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "3885519354878207",
+            "price": 0.0026885744914,
+            "value": 104465.08223366532,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 102968.00417801247,
+              "h24": 111927.95079177713,
+              "d7": 135867.62285503233,
+              "d30": 197627.0903626816
+            }
+          },
+          "tokenId": "4"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "1499952179533456600",
+            "price": 5.66324750341e-8,
+            "value": 84.94600435977236,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 84.94600435977236,
+              "h24": 92.48425809508687,
+              "d7": 114.57220102384643,
+              "d30": 152.87096051585544
+            }
+          },
+          "tokenId": "203774"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 131435.7731520251,
+      "totalValueTs": {
+        "h1": 129553.39832677225,
+        "h24": 140826.8674901722,
+        "d7": 170949.88159825618,
+        "d30": 248642.42585179745
+      }
     }
   },
   {
-    "id": "stake_2038_dec", 
+    "id": "0d50ce34e207068eb1c5e37983c1be96",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
       "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2038-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "note": "{\"status\":\"ACTIVE\",\"progress\":30.98109810981098,\"endTs\":\"2035-07-05T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "124017891601661",
+            "price": 0.0026885744914,
+            "value": 3334.313398374361,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 3286.529705367638,
+              "h24": 3572.5130158116967,
+              "d7": 4336.61875915142,
+              "d30": 6307.855612501244
+            }
+          },
+          "tokenId": "5"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "531813953029347",
+            "price": 0.0026885744914,
+            "value": 14298.214282853003,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 14093.308084722588,
+              "h24": 15319.662708748763,
+              "d7": 18596.30360829848,
+              "d30": 27049.36832176971
+            }
+          },
+          "tokenId": "5"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "196118729537656580",
+            "price": 5.66324750341e-8,
+            "value": 11.106689054260746,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 11.106689054260746,
+              "h24": 12.09231564001111,
+              "d7": 14.980313913820057,
+              "d30": 19.987876259425846
+            }
+          },
+          "tokenId": "126029"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 17643.634370281623,
+      "totalValueTs": {
+        "h1": 17390.944479144488,
+        "h24": 18904.26804020047,
+        "d7": 22947.90268136372,
+        "d30": 33377.21181053038
+      }
     }
   },
   {
-    "id": "stake_2039_dec",
-    "tokenSet": {
-      "name": "STAKE", 
-      "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000",
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2039-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
-    }
-  },
-  {
-    "id": "stake_2040_dec",
+    "id": "3d4ebb51b9dad52dfa0f0427c0e1a722",
     "tokenSet": {
       "name": "STAKE",
       "chainId": 1,
-      "publicKey": "0x0000000000000000000000000000000000000000", 
-      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2040-12-01T00:00:00.000Z\",\"signature\":null}",
-      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
-      "actions": ["WITHDRAW_STAKE","MINT"],
-      "totalValue": 0,
-      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":31.46714671467147,\"endTs\":\"2035-06-08T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "246715625938174",
+            "price": 0.0026885744914,
+            "value": 6633.133385271588,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 6538.074651587767,
+              "h24": 7106.997010554336,
+              "d7": 8627.074672868735,
+              "d30": 12548.56477293172
+            }
+          },
+          "tokenId": "6"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "1071015795316460",
+            "price": 0.0026885744914,
+            "value": 28795.05747174318,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 28382.398545617172,
+              "h24": 30852.14415027778,
+              "d7": 37450.94461237101,
+              "d30": 54474.50289885377
+            }
+          },
+          "tokenId": "6"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "392744372705376000",
+            "price": 5.66324750341e-8,
+            "value": 22.242085882020472,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 22.242085882020472,
+              "h24": 24.215886630448946,
+              "d7": 29.9993478689306,
+              "d30": 40.027415748242376
+            }
+          },
+          "tokenId": "119779"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 35450.43294289679,
+      "totalValueTs": {
+        "h1": 34942.71528308696,
+        "h24": 37983.35704746257,
+        "d7": 46108.01863310867,
+        "d30": 67063.09508753373
+      }
+    }
+  },
+  {
+    "id": "c3f4dc988636efcc5131c6f66d5a9182",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":56.86666666666667,\"endTs\":\"2028-07-21T03:16:55.206Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "34200000000000",
+            "price": 0.0026885744914,
+            "value": 919.4924760588001,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 906.31532653848,
+              "h24": 985.17998945826,
+              "d7": 1195.8948797432402,
+              "d30": 1739.4962868781201
+            }
+          },
+          "tokenId": "7"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "128422173417998",
+            "price": 0.0026885744914,
+            "value": 3452.7257958177656,
+            "priceChangeTs": {
+              "h1": 1.4539254864692546,
+              "h24": -6.667564719374871,
+              "d7": -23.11260031013628,
+              "d30": -47.14030245451019
+            },
+            "valueTs": {
+              "h1": 3403.2451472548,
+              "h24": 3699.38466240205,
+              "d7": 4490.626305148603,
+              "d30": 6531.868240158641
+            }
+          },
+          "tokenId": "7"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 1,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "47524860102857060",
+            "price": 5.66324750341e-8,
+            "value": 2.6914504532741477,
+            "priceChangeTs": {
+              "h1": 0,
+              "h24": -8.150850631860099,
+              "d7": -25.858102052091887,
+              "d30": -44.43287065566521
+            },
+            "valueTs": {
+              "h1": 2.6914504532741477,
+              "h24": 2.9302943704862905,
+              "d7": 3.63013428003307,
+              "d30": 4.84360175706746
+            }
+          },
+          "tokenId": "140987"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 4374.9097223298395,
+      "totalValueTs": {
+        "h1": 4312.251924246554,
+        "h24": 4687.494946230796,
+        "d7": 5690.151319171877,
+        "d30": 8276.208128793829
+      }
+    }
+  },
+  {
+    "id": "509e119b8d09e291bd21b30b7935e672",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":30.45904590459046,\"endTs\":\"2035-08-03T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "183979329818454",
+            "price": 0.0138086506213,
+            "value": 25405.06287003952,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 25436.90416749978,
+              "h24": 25909.018530720605,
+              "d7": 32310.770528646386,
+              "d30": 50823.86560122989
+            }
+          },
+          "tokenId": "0"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "766641910964690",
+            "price": 0.0138086506213,
+            "value": 105862.90300157185,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 105995.58569563653,
+              "h24": 107962.88635908956,
+              "d7": 134638.98845194306,
+              "d30": 211783.0600078162
+            }
+          },
+          "tokenId": "0"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "288748731338749700",
+            "price": 8.02961401233e-8,
+            "value": 23.18540859200135,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 23.220904735844172,
+              "h24": 24.096958394720467,
+              "d7": 32.75938948057952,
+              "d30": 46.050165298450786
+            }
+          },
+          "tokenId": "156220"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 131291.15128020337,
+      "totalValueTs": {
+        "h1": 131455.71076787217,
+        "h24": 133896.00184820488,
+        "d7": 166982.51837007003,
+        "d30": 262652.9757743445
+      }
+    }
+  },
+  {
+    "id": "6121621dea04ea9bc895c7a1769d6453",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":31.46714671467147,\"endTs\":\"2035-06-08T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "246715625938174",
+            "price": 0.0138086506213,
+            "value": 34068.09881395585,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 34110.79788042893,
+              "h24": 34743.90155980076,
+              "d7": 43328.62818549148,
+              "d30": 68154.62273277254
+            }
+          },
+          "tokenId": "1"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "1055891890538246",
+            "price": 0.0138086506213,
+            "value": 145804.42210306582,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 145987.16528299628,
+              "h24": 148696.7181877895,
+              "d7": 185437.5739486894,
+              "d30": 291687.6998470377
+            }
+          },
+          "tokenId": "1"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "392744372705376000",
+            "price": 8.02961401233e-8,
+            "value": 31.535857183388433,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 31.584137605894096,
+              "h24": 32.77571044195956,
+              "d7": 44.557999656342346,
+              "d30": 62.63557661107486
+            }
+          },
+          "tokenId": "119779"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 179904.05677420506,
+      "totalValueTs": {
+        "h1": 180129.5473010311,
+        "h24": 183473.3954580322,
+        "d7": 228810.7601338372,
+        "d30": 359904.9581564213
+      }
+    }
+  },
+  {
+    "id": "165e1fc55fdf379bae653684512f4b9d",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":26.46264626462646,\"endTs\":\"2036-03-12T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "300000000000000",
+            "price": 0.0138086506213,
+            "value": 41425.9518639,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 41477.8728555,
+              "h24": 42247.7110167,
+              "d7": 52686.5228184,
+              "d30": 82874.3081922
+            }
+          },
+          "tokenId": "2"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "527064194883842",
+            "price": 0.0138086506213,
+            "value": 72780.4532214775,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 72871.67220692824,
+              "h24": 74224.18597567403,
+              "d7": 92563.93243503057,
+              "d30": 145600.26841292428
+            }
+          },
+          "tokenId": "2"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "296121688312480300",
+            "price": 8.02961401233e-8,
+            "value": 23.777428578287086,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 23.81383108642828,
+              "h24": 24.712254041625382,
+              "d7": 33.595873048857555,
+              "d30": 47.22601769373054
+            }
+          },
+          "tokenId": "306675"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 114230.18251395579,
+      "totalValueTs": {
+        "h1": 114373.35889351467,
+        "h24": 116496.60924641567,
+        "d7": 145284.05112647943,
+        "d30": 228521.802622818
+      }
+    }
+  },
+  {
+    "id": "5ee8a2b499b58d62e888fc9040b192e4",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":33.910891089108915,\"endTs\":\"2033-01-19T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "529567236620708",
+            "price": 0.0138086506213,
+            "value": 73126.08950982663,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 73217.74169664069,
+              "h24": 74576.6785888802,
+              "d7": 93003.52098697989,
+              "d30": 146291.72792065417
+            }
+          },
+          "tokenId": "3"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "1395491243776437",
+            "price": 0.0138086506213,
+            "value": 192698.51030392208,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 192940.0279344087,
+              "h24": 196521.03597800722,
+              "d7": 245078.60419368217,
+              "d30": 385501.2380541498
+            }
+          },
+          "tokenId": "3"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "767786372372745400",
+            "price": 8.02961401233e-8,
+            "value": 61.65028214080216,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 61.74466681701508,
+              "h24": 64.07410410193047,
+              "d7": 87.10761323114644,
+              "d30": 122.4479470359425
+            }
+          },
+          "tokenId": "275417"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 265886.2500958895,
+      "totalValueTs": {
+        "h1": 266219.5142978664,
+        "h24": 271161.78867098934,
+        "d7": 338169.2327938932,
+        "d30": 531915.4139218399
+      }
+    }
+  },
+  {
+    "id": "e6fed6c4234f5a190a84f4692b2dc533",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":28.244824482448244,\"endTs\":\"2035-12-04T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "1000000000000000",
+            "price": 0.0138086506213,
+            "value": 138086.506213,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 138259.57618499998,
+              "h24": 140825.703389,
+              "d7": 175621.742728,
+              "d30": 276247.693974
+            }
+          },
+          "tokenId": "4"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "3827758797345904",
+            "price": 0.0138086506213,
+            "value": 528561.8389515706,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 529224.30905945,
+              "h24": 539046.8250396696,
+              "d7": 672237.6707323211,
+              "d30": 1057409.5408554976
+            }
+          },
+          "tokenId": "4"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "1499952179533456600",
+            "price": 8.02961401233e-8,
+            "value": 120.44037038606767,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 120.62476087005427,
+              "h24": 125.17556387766359,
+              "d7": 170.17396898597715,
+              "d30": 239.2150624767704
+            }
+          },
+          "tokenId": "203774"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 666768.7855349567,
+      "totalValueTs": {
+        "h1": 667604.5100053201,
+        "h24": 679997.7039925474,
+        "d7": 848029.5874293072,
+        "d30": 1333896.4498919742
+      }
+    }
+  },
+  {
+    "id": "4cf16d843677d1b61109a1cce6ccd0c1",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":28.370837083708373,\"endTs\":\"2035-11-27T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "100000000000000",
+            "price": 0.0138086506213,
+            "value": 13808.6506213,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 13825.957618499999,
+              "h24": 14082.5703389,
+              "d7": 17562.174272800003,
+              "d30": 27624.7693974
+            }
+          },
+          "tokenId": "5"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "384783797687755",
+            "price": 0.0138086506213,
+            "value": 53133.45027007192,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 53200.04479116379,
+              "h24": 54187.44896206877,
+              "d7": 67576.40112342172,
+              "d30": 106295.63678980047
+            }
+          },
+          "tokenId": "5"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "150363910762374520",
+            "price": 8.02961401233e-8,
+            "value": 12.073641648063003,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 12.092126020203597,
+              "h24": 12.548324922188693,
+              "d7": 17.059226177894168,
+              "d30": 23.980306037797025
+            }
+          },
+          "tokenId": "203054"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 66954.17453301998,
+      "totalValueTs": {
+        "h1": 67038.094535684,
+        "h24": 68282.56762589095,
+        "d7": 85155.63462239961,
+        "d30": 133944.38649323827
+      }
+    }
+  },
+  {
+    "id": "02c89806d4dcaaf292a99b5bf4e0bf10",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":30.98109810981098,\"endTs\":\"2035-07-05T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "124017891601661",
+            "price": 0.0138086506213,
+            "value": 17125.197359175923,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 17146.66113220292,
+              "h24": 17464.906817624666,
+              "d7": 21780.238252535903,
+              "d30": 34259.656566476355
+            }
+          },
+          "tokenId": "6"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "524261760822708",
+            "price": 0.0138086506213,
+            "value": 72393.47489308318,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 72484.20886134944,
+              "h24": 73829.53122781352,
+              "d7": 92071.7640813339,
+              "d30": 144826.1024660218
+            }
+          },
+          "tokenId": "6"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "196118729537656580",
+            "price": 8.02961401233e-8,
+            "value": 15.747576987759247,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 15.771686041335565,
+              "h24": 16.36670348016224,
+              "d7": 22.250244409985868,
+              "d30": 31.277366558317617
+            }
+          },
+          "tokenId": "126029"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 89534.41982924688,
+      "totalValueTs": {
+        "h1": 89646.6416795937,
+        "h24": 91310.80474891835,
+        "d7": 113874.25257827977,
+        "d30": 179117.0363990565
+      }
+    }
+  },
+  {
+    "id": "58e18357912de39615c3858c2d829d38",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":56.86666666666667,\"endTs\":\"2028-07-21T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "34200000000000",
+            "price": 0.0138086506213,
+            "value": 4722.5585124846,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 4728.477505527,
+              "h24": 4816.239055903799,
+              "d7": 6006.2636012976,
+              "d30": 9447.671133910799
+            }
+          },
+          "tokenId": "7"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "126592073463054",
+            "price": 0.0138086506213,
+            "value": 17480.65713877256,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 17502.566425382232,
+              "h24": 17827.41778890654,
+              "d7": 22232.32055713255,
+              "d30": 34970.768369555866
+            }
+          },
+          "tokenId": "7"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "47524860102857060",
+            "price": 8.02961401233e-8,
+            "value": 3.81606282615924,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 3.8219051003832676,
+              "h24": 3.9660938813613145,
+              "d7": 5.391834606168595,
+              "d30": 7.579349884501532
+            }
+          },
+          "tokenId": "140987"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 22207.031714083318,
+      "totalValueTs": {
+        "h1": 22234.865836009616,
+        "h24": 22647.6229386917,
+        "d7": 28243.975993036318,
+        "d30": 44426.01885335117
+      }
+    }
+  },
+  {
+    "id": "31b49c8caf79fd8eecb9c6704f2556a9",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 369,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":54.39393939393939,\"endTs\":\"2029-02-17T03:21:34.549Z\",\"signature\":null}",
+      "in": [
+        {
+          "standard": "ERC_20",
+          "note": "Staked",
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "100000000000000",
+            "price": 0.0138086506213,
+            "value": 13808.6506213,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 13825.957618499999,
+              "h24": 14082.5703389,
+              "d7": 17562.174272800003,
+              "d30": 27624.7693974
+            }
+          },
+          "tokenId": "8"
+        }
+      ],
+      "out": [
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+          "name": "HEX",
+          "symbol": "HEX",
+          "decimals": 8,
+          "balance": {
+            "units": "408855322009306",
+            "price": 0.0138086506213,
+            "value": 56457.40296285615,
+            "priceChangeTs": {
+              "h1": -0.12517756583342718,
+              "h24": -1.9450974574105735,
+              "d7": -21.372773058706038,
+              "d30": -50.01351713509815
+            },
+            "valueTs": {
+              "h1": 56528.163541988346,
+              "h24": 57577.3383062966,
+              "d7": 71803.88417489194,
+              "d30": 112945.33987406798
+            }
+          },
+          "tokenId": "8"
+        },
+        {
+          "standard": "ERC_20",
+          "note": null,
+          "chainId": 369,
+          "publicKey": "0x0000000000000000000000000000000000000000",
+          "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+          "name": "Hedron",
+          "symbol": "HDRN",
+          "decimals": 9,
+          "balance": {
+            "units": "150732691033286600",
+            "price": 8.02961401233e-8,
+            "value": 12.103253280370867,
+            "priceChangeTs": {
+              "h1": -0.15286288043733023,
+              "h24": -3.7828417503465093,
+              "d7": -29.225150530518373,
+              "d30": -49.65184502219071
+            },
+            "valueTs": {
+              "h1": 12.121782987005165,
+              "h24": 12.579100755570751,
+              "d7": 17.1010653799975,
+              "d30": 24.03911977649493
+            }
+          },
+          "tokenId": "102858"
+        }
+      ],
+      "actions": [
+        "WITHDRAW_STAKE",
+        "MINT"
+      ],
+      "totalValue": 70278.15683743652,
+      "totalValueTs": {
+        "h1": 70366.24294347536,
+        "h24": 71672.48774595217,
+        "d7": 89383.15951307194,
+        "d30": 140594.14839124447
+      }
     }
   }
 ]
