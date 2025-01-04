@@ -1,8 +1,5 @@
-import { Action, Balance, TokenSetRecord } from "@/lib/schema";
+import { Action, Balance, Name, Standard, TimeSeriesMetrics, Token, TokenSet, TokenSetRecord } from "@/lib/schema";
 import { TokenSetCard } from "@/components/token-set/token-set-card";
-import { TimeSeriesMetrics, TokenSet } from "@/lib/schema";
-import { Name, Standard } from "@/lib/schema";
-import { Token } from "@/lib/schema";
 
 export default function LiquidiyPairPage() {
 	const tokenSetRecord = TokenSetRecord.parse({

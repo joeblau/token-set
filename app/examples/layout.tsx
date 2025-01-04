@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation"
 import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
 import { useSkeleton } from "@/lib/hooks/use-sekeleton";
+import Link from "next/link"
 
 const ExampleLayout = ({ children }: { children: React.ReactNode }) => {
     const pathname = usePathname()
@@ -32,6 +33,12 @@ const ExampleLayout = ({ children }: { children: React.ReactNode }) => {
 
     return <div className="flex flex-col justify-center mx-auto">
         <div className="flex justify-center gap-4 p-4">
+            <Link href="/examples">
+                <Button variant="outline">
+                    Back to Examples
+                </Button>
+            </Link>
+
             <Button 
                 variant="outline"
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
