@@ -1,0 +1,226 @@
+[
+  {
+    "id": "stake_2025_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000", 
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2025-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2026_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2026-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2027_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2027-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2028_dec", 
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2028-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2029_dec",
+    "tokenSet": {
+      "name": "STAKE", 
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2029-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2030_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2030-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2031_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2031-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2032_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000", 
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2032-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2033_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2033-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2034_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2034-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2035_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2035-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2036_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2036-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2037_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2037-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2038_dec", 
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2038-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2039_dec",
+    "tokenSet": {
+      "name": "STAKE", 
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000",
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2039-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  },
+  {
+    "id": "stake_2040_dec",
+    "tokenSet": {
+      "name": "STAKE",
+      "chainId": 1,
+      "publicKey": "0x0000000000000000000000000000000000000000", 
+      "note": "{\"status\":\"ACTIVE\",\"progress\":0,\"endTs\":\"2040-12-01T00:00:00.000Z\",\"signature\":null}",
+      "in": [{"standard":"ERC_20","note":"Staked","chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"100000000000000","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "out": [{"standard":"ERC_20","note":null,"chainId":1,"publicKey":"0x0000000000000000000000000000000000000000","address":"0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39","name":"HEX","symbol":"HEX","decimals":8,"balance":{"units":"9305299905748","price":0,"value":0,"priceChangeTs":{"h1":0,"h24":0,"d7":0,"d30":0},"valueTs":{"h1":0,"h24":0,"d7":0,"d30":0}},"tokenId":"0"}],
+      "actions": ["WITHDRAW_STAKE","MINT"],
+      "totalValue": 0,
+      "totalValueTs": {"h1":0,"h24":0,"d7":0,"d30":0}
+    }
+  }
+]
